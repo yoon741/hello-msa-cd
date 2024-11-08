@@ -50,7 +50,7 @@ spec:
         - name: msa-usersrv
           image: yoon741/msa-user-service
           ports:
-            - containerPort: 3000
+            - containerPort: 8000
               protocol: TCP
           env:
             - name: CORS_ORIGINS
