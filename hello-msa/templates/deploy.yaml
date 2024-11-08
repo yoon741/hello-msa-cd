@@ -48,8 +48,7 @@ spec:
     spec:
       containers:
         - name: msa-usersrv
-          image: yoon741/msa-userservice
-          imagePullPolicy: IfNotPresent
+          image: yoon741/msa-user-service
           ports:
             - containerPort: 3000
               protocol: TCP
