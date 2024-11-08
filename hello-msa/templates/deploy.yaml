@@ -24,9 +24,9 @@ spec:
               protocol: TCP
           env:
             - name: USER_SRV_URL
-              value: 192.168.56.1:31231  # 임의로 정한 포트 번호 (고정)
+              value: 43.203.111.220:31231  # 임의로 정한 포트 번호 (고정)
             - name: PRODUCT_SRV_URL      #              (서버주소:노드포트)
-              value: 192.168.56.1:31232
+              value: 43.203.111.220:31232
 ---
 # nodejs
 apiVersion: apps/v1
@@ -54,4 +54,4 @@ spec:
               protocol: TCP
           env:
             - name: CORS_ORIGINS
-              value: http://192.168.56.1:31230
+              value: 43.203.111.220:31230
